@@ -1,0 +1,89 @@
+/* Estilos para el encabezado */
+h1 {
+  text-align: center;
+  font-family: 'Arial', sans-serif; /* Cambio de fuente */
+  font-style: italic;
+  color: #6c3483; /* Texto morado oscuro */
+  margin-top: 0;
+}
+
+/* Estilos para el cuerpo de la página */
+body {
+  background-color: #f5f5f5; /* Fondo gris claro */
+  font-family: 'Arial', sans-serif; /* Fuente predeterminada */
+  margin: 0;
+  padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: #f9f7f7; /* Fondo gris claro */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  padding: 20px;
+}
+
+/* Estilos para el formulario */
+form {
+  margin: 0 auto; /* Centrar el formulario */
+  text-align: center; /* Centrar el contenido del formulario */
+  margin-bottom: 20px;
+}
+
+form input[type='text'] {
+  width: calc(100% - 130px); /* Ancho del campo de entrada */
+  padding: 12px;
+  border: 2px solid #ccc; /* Borde gris claro */
+  border-radius: 6px; /* Bordes redondeados */
+  margin-right: 10px;
+}
+
+form button {
+  background-color: #6c3483; /* Morado oscuro */
+  color: #fff;
+  border: none;
+  border-radius: 6px; /* Bordes redondeados */
+  padding: 12px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #49274a; /* Morado más oscuro al pasar el ratón */
+}
+
+/* Estilos para la lista de tareas */
+.todo {
+  background-color: #f9f7f7; /* Fondo gris claro */
+  border: 2px solid #ccc; /* Borde gris claro */
+  border-radius: 6px; /* Bordes redondeados */
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.todo-text {
+  font-size: 18px; /* Letra más grande */
+  margin-bottom: 10px;
+}
+
+.todo-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-actions button {
+  background-color: #9b59b6; /* Morado */
+  color: #fff;
+  border: none;
+  border-radius: 6px; /* Bordes redondeados */
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.todo-actions button:hover {
+  background-color: #6c3483; /* Morado más oscuro al pasar el ratón */
+}
